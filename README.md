@@ -36,7 +36,7 @@
 # 실험 환경 및 과정
 ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4 
 
-# tesk flow
+# task flow
 train : validation : test = 7:1:2
 ![image](https://github.com/user-attachments/assets/272999b8-9361-44a2-9f32-6e80b1ef51e8)
 
