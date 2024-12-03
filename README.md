@@ -1,4 +1,4 @@
-# textile_image_classification in few data situation
+# Textile Image Classification with Limited Data
 
 # abstract
 
