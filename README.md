@@ -150,6 +150,10 @@ Automated Defect Detection: Understanding the regularity of unit cell patterns a
 # References and Documentation
 Z. Wang, S. Chang, Y. Yang, D. Liu and T. S. Huang, "Studying Very Low Resolution Recognition Using Deep Networks," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 4792-4800, doi: 10.1109/CVPR.2016.518.
 
+L. Zhou, G. Chen, M. Feng and A. Knoll, "Improving Low-Resolution Image Classification by Super-Resolution with Enhancing High-Frequency Content," 2020 25th International Conference on Pattern Recognition (ICPR), Milan, Italy, 2021, pp. 1972-1978, doi: 10.1109/ICPR48806.2021.9412876.
+
+Sungho Shin, Joosoon Lee, Junseok Lee, Seungjun Choi, & Kyoobin Lee. (2020). Low-Resolution Image Classification Using Knowledge Distillation From High-Resolution Image Via Self-Attention Map. Journal of KIISE, 47(11), 1027-1031, 10.5626/JOK.2020.47.11.1027
+
 Saeed Anwar, Salman Khan, and Nick Barnes. 2020. A Deep Journey into Super-resolution: A Survey. ACM Comput. Surv. 53, 3, Article 60 (May 2021), 34 pages. https://doi.org/10.1145/3390462
 
 Y. Hou, Z. Ma, C. Liu and C. C. Loy, "Learning Lightweight Lane Detection CNNs by Self Attention Distillation," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 1013-1021, doi: 10.1109/ICCV.2019.00110.
@@ -160,4 +164,4 @@ Luyuan Xie, Cong Li, Zirui Wang, Xin Zhang, Boyan Chen, Qingni Shen, Zhonghai Wu
 
 Min Yong Park, & Hyun Kwon (2023-02-08). Evaluation of Image Classification Performance based on Resolution Difference. Proceedings of Symposium of the Korean Institute of communications and Information Sciences.
 
-Sungho Shin, Joosoon Lee, Junseok Lee, Seungjun Choi, & Kyoobin Lee. (2020). Low-Resolution Image Classification Using Knowledge Distillation From High-Resolution Image Via Self-Attention Map. Journal of KIISE, 47(11), 1027-1031, 10.5626/JOK.2020.47.11.1027
+J. Xie, L. Fang, B. Zhang, J. Chanussot and S. Li, "Super Resolution Guided Deep Network for Land Cover Classification From Remote Sensing Images," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-12, 2022, Art no. 5611812, doi: 10.1109/TGRS.2021.3120891.
