@@ -65,6 +65,17 @@ Usage : preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 
 
 # 실험 결과
 
+## performance by image split
+![image](https://github.com/user-attachments/assets/5086fd89-6185-47be-9900-a3ebae360fbf)
+
+## performance by image split and voting
+![image](https://github.com/user-attachments/assets/e984e792-47e7-4de8-93af-69cd2a381905)
+
+
+
+
+
+
 ![HB-KwonPHYS](https://github.com/HB-KwonPHYS/textile_image_classification/blob/main/plot/all%20.png)
 
 
