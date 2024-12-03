@@ -33,10 +33,12 @@
 5. benchmarking
    CNN기반이 아닌 트렌스포머기반 이미지 모델 등 최신 모델도 함께 비교하여 이러한 방법이 가지는 효과 측정.
    
-# 실험 환경 및 환경설정
+# 실험 환경 및 과정
 ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4 
 
-
+# tesk flow
+train : validation : test = 7:1:2
+![image](https://github.com/user-attachments/assets/272999b8-9361-44a2-9f32-6e80b1ef51e8)
 
 
 # 결과
