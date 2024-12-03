@@ -65,19 +65,20 @@ Usage : preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 
 
 # 실험 결과
 
-## performance by image split
+## CNN performance by image split
 ![image](https://github.com/user-attachments/assets/5086fd89-6185-47be-9900-a3ebae360fbf)
-
 cnn의 경우 split 수가 늘어날 수록 성능이 높아지는 경향을 보임.
 
-## performance by image split and voting
+## CNN performance by image split and voting
 ![image](https://github.com/user-attachments/assets/e984e792-47e7-4de8-93af-69cd2a381905)
+cnn의 경우 split과 함께 voting을 수행하였을 때, 예외 없이 더 높은 성능을 보임. 특히 hard voting보다 soft voting의 성능이 더 높게 나옴.
 
+## performance by image split
+![image](https://github.com/user-attachments/assets/4018dc76-ca76-4ef2-9b62-ecf17df19199)
+트랜스포머 기반 최신 모델을 같이 학습시킨 경우, CNN기반 모델과 달리 split의 영향이 크지 않음. 파라미터 수가 적은 모바일넷의 경우 스플릿의 효과가 두드러짐.
 
-cnn의 경우 split과 함께 voting을 수행하였을 때, 예외 없이 더 높은 성능을 보임.
-
-
-
+## performance by image split and voting
+![image](https://github.com/user-attachments/assets/81cefb05-7537-4b09-8bd0-ad3f41fc29c7)
 
 ![HB-KwonPHYS](https://github.com/HB-KwonPHYS/textile_image_classification/blob/main/plot/all%20.png)
 
