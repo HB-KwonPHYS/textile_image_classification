@@ -25,14 +25,19 @@
 각 클래스별로 기타 103, 평직 161, 능직 337 개의 매우 적은 데이터셋이며, class별로 불균형한 데이터를 고려하여 weighted F1 score를 평가지표로 선정.  파이토치의 바닐라 CNN을 이용 하였을 때, 52% under의 accuracy. 각 이미지는 회전 등의 데이터 증강 기법이 제한되어 있는 상황임. 따라서 성능을 높이기 위한 여러 학습 방법 시도. 
 
 0. new model : cnn_mod and cnn_Deep
+
    바닐라 CNN을 개량하여 설명력이 강한 모델을 만듦.
 2. gray scale
-   컬러채널 평균내어 연산량 줄임
-3. split
+
+    컬러채널 평균내어 연산량 줄임
+4. split
+
    반복되는 패턴의 최소단위인 Unit cell 이상의 블럭으로 이미지를 잘라 학습시킴
-4. voting
+6. voting
+
    자른 이미지는 모두 같은 class이므로 voting 수행. 여기서 확률값을 더하는 soft voting과 각 class의 진리값을 더하는 hard voting을 비교해 봄
-5. benchmarking
+8. benchmarking
+
    CNN기반이 아닌 트렌스포머 기반 이미지 모델 등 최신 모델도 함께 비교하여 이러한 방법이 가지는 효과 측정.
    
 ## 실험 환경 및 과정
@@ -40,11 +45,10 @@ ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4
 
 
 # task flow and Installation and Usage
-train : validation : test = 7:1:2 , early stopping and then upload at wandb
+train : validation : test = 7:1:2 , early stopping and then upload at Wandb
 ![image](https://github.com/user-attachments/assets/272999b8-9361-44a2-9f32-6e80b1ef51e8)
 
-preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 수행 후  tarining_cnn.py 를 실행해 mobilenetv2 | xception | deit_tiny | cnn | cnn_deep를 학습시킴.
-voting and scoring 폴더의 코드로 test 수행.
+Usage : preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 수행 후  tarining_cnn.py 를 실행해 mobilenetv2 | xception | deit_tiny | cnn | cnn_deep를 학습시킴. voting and scoring 폴더의 코드로 test 수행.
 
 ## image split 예시
 ![image](https://github.com/user-attachments/assets/c8f348f5-7430-4cf6-a5ae-b43d9b34fe7b)
