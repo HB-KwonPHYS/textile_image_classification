@@ -68,10 +68,13 @@ Usage : preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 
 ## performance by image split
 ![image](https://github.com/user-attachments/assets/5086fd89-6185-47be-9900-a3ebae360fbf)
 
+cnn의 경우 split 수가 늘어날 수록 성능이 높아지는 경향을 보임.
+
 ## performance by image split and voting
 ![image](https://github.com/user-attachments/assets/e984e792-47e7-4de8-93af-69cd2a381905)
 
 
+cnn의 경우 split과 함께 voting을 수행하였을 때, 예외 없이 더 높은 성능을 보임.
 
 
 
