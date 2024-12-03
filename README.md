@@ -154,6 +154,10 @@ Saeed Anwar, Salman Khan, and Nick Barnes. 2020. A Deep Journey into Super-resol
 
 Y. Hou, Z. Ma, C. Liu and C. C. Loy, "Learning Lightweight Lane Detection CNNs by Self Attention Distillation," 2019 IEEE/CVF International Conference on Computer Vision (ICCV), Seoul, Korea (South), 2019, pp. 1013-1021, doi: 10.1109/ICCV.2019.00110.
 
+Luke Jaffe, Shiv Sundram, Christian Martinez-Nieves. "Super-Resolution to Improve Classification Accuracy of Low-Resolution Images" https://cs231n.stanford.edu/reports/2017/pdfs/19.pdf
+
+Luyuan Xie, Cong Li, Zirui Wang, Xin Zhang, Boyan Chen, Qingni Shen, Zhonghai Wu. "SHISRCNet: Super-resolution And Classification Network For Low-resolution Breast Cancer Histopathology Image". arXiv:2306.14119 
+
 Min Yong Park, & Hyun Kwon (2023-02-08). Evaluation of Image Classification Performance based on Resolution Difference. Proceedings of Symposium of the Korean Institute of communications and Information Sciences.
 
 Sungho Shin, Joosoon Lee, Junseok Lee, Seungjun Choi, & Kyoobin Lee. (2020). Low-Resolution Image Classification Using Knowledge Distillation From High-Resolution Image Via Self-Attention Map. Journal of KIISE, 47(11), 1027-1031, 10.5626/JOK.2020.47.11.1027
