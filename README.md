@@ -126,6 +126,19 @@ By augmenting data through the repetition of unit cells—a characteristic of te
 
 Vision transformer models like DeiT and Xception showed the best performance when split and voting were applied but also demonstrated high performance even without these methods. Compared to the previous models, they are much heavier and benefit from pre-training. By using our proposed method, we were able to achieve similar performance with lightweight models like `cnn_deep`.
 
+# Future Work
+
+While our proposed methods have shown significant improvements in textile image classification with limited data, there are several avenues for future research:
+
+1. **Exploring Optimal Splitting Boundaries**: Although we attempted splits up to 48 pieces, intuitively, the performance is likely to degrade when the splits become smaller, especially below the unit cell size. However, we were unable to experiment with this. In future work, we aim to find the boundary for optimal performance by experimenting with various split sizes, including those smaller than the unit cell.
+
+2. **Detailed Analysis of Image Entropy**: By conducting a deeper analysis of the relationship between image entropy and model performance, we can gain more profound insights into data loss during preprocessing and help design better preprocessing pipelines. However, image entropy does not provide insights into different resolutions. We can compare and analyze factors such as image entropy density and color-considered image entropy for each split.
+
+3. **Application to Other Textile Types**: By extending our methodology to classify additional types of textile patterns or to detect defects, we can broaden the applicability of the model in the textile industry. Such textile classifiers can be widely used in the recycling industry or the SPA (Specialty retailer of Private label Apparel) industry. Additionally, by improving the model, it can be used as a defect detection model in textile factories.
+
+4. **Optimization for Real-Time Deployment**: Investigating methods such as model compression or quantization to optimize the model for real-time processing would make it more practical for industrial applications. The model can be optimized for industrial embedded inference machines like NVIDIA® Jetson™.
+
+
 # References and Documentation
 Z. Wang, S. Chang, Y. Yang, D. Liu and T. S. Huang, "Studying Very Low Resolution Recognition Using Deep Networks," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 4792-4800, doi: 10.1109/CVPR.2016.518.
 
