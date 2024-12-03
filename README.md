@@ -71,7 +71,7 @@ cnn의 경우 split 수가 늘어날 수록 성능이 높아지는 경향을 보
 
 ## CNN performance by image split and voting
 ![image](https://github.com/user-attachments/assets/e984e792-47e7-4de8-93af-69cd2a381905)
-cnn의 경우 split과 함께 voting을 수행하였을 때, 예외 없이 더 높은 성능을 보임. 특히 hard voting보다 soft voting의 성능이 더 높게 나옴.
+cnn의 경우 split과 함께 voting을 수행하였을 때, 더 높은 성능을 보임. 특히 hard voting보다 soft voting의 성능이 더 높게 나옴.
 
 ## performance by image split
 ![image](https://github.com/user-attachments/assets/4018dc76-ca76-4ef2-9b62-ecf17df19199)
