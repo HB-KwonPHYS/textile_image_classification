@@ -139,6 +139,14 @@ While our proposed methods have shown significant improvements in textile image 
 4. **Optimization for Real-Time Deployment**: Investigating methods such as model compression or quantization to optimize the model for real-time processing would make it more practical for industrial applications. The model can be optimized for industrial embedded inference machines like NVIDIA® Jetson™.
 
 
+# Application Areas
+Both crystal structures and textiles are characterized by the repetition of a fundamental unit called the unit cell. In crystallography, a unit cell is the smallest repeating structure that, when duplicated in three-dimensional space, forms the entire crystal lattice. Similarly, textiles are composed of repeating patterns where the unit cell represents the minimal design element that, when repeated, creates the full fabric pattern.
+
+Material Science and Crystallography: The methodologies developed in this study can be applied to microscopic images of crystalline materials. By focusing on the repetition of unit cells, we can improve the classification and analysis of crystal structures, aiding in material identification and quality control.
+
+Automated Defect Detection: Understanding the regularity of unit cell patterns allows for the detection of anomalies or defects in both textiles and crystalline materials. This can be crucial for quality assurance in manufacturing processes where structural integrity is vital.
+
+
 # References and Documentation
 Z. Wang, S. Chang, Y. Yang, D. Liu and T. S. Huang, "Studying Very Low Resolution Recognition Using Deep Networks," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 4792-4800, doi: 10.1109/CVPR.2016.518.
 
