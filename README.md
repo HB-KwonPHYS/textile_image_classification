@@ -87,7 +87,7 @@ soft voting을 수행한 경우, 각 모델들이 최고 성능을 달성할 수
 ## gary scale 
 ![image](https://github.com/user-attachments/assets/a29f17a7-e26a-4cb1-8cd2-28739a998836)
 
-cnn_deep을 gray scale에 맞게 개조하였으나 컴퓨팅 리소스 측면에서 컬러채널이 있는것과 차이가 없어 폐기함.
+cnn_deep을 gray scale에 맞게 입력층을 수정 하였으나 컴퓨팅 리소스 측면에서 컬러채널이 있는것과 차이가 없어 폐기함.
 
 # 결론
 
