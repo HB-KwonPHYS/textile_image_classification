@@ -17,6 +17,7 @@
 
 고해상도 이미지의 원활한 학습을 위한 resize 실시, 224x224 해상도 활용
 ![image](https://github.com/user-attachments/assets/f2912a99-91d5-4df8-a6d2-1a1ac7098117)
+![image](https://github.com/user-attachments/assets/bb90e2e2-72de-49b0-93e1-29f23c08c01b)
 
 
 
