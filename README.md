@@ -52,9 +52,8 @@ ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4
 # new model 구축
 ## CNN_deep
 ![CNN_deep](https://github.com/user-attachments/assets/65519437-1007-4151-bae0-fb7a75dff75b)
-## CNN_mod
-![CNN_mod_graph](https://github.com/user-attachments/assets/03e709f6-0059-44f2-aa3a-82d000a2ba39)
 
+바닐라 CNN 보다 깊고 큰 fully connected layer을 가진 모델 생성. 
 
 # task flow and Installation and Usage
 train : validation : test = 7:1:2 , early stopping and then upload at Wandb
@@ -83,4 +82,6 @@ cnn의 경우 split과 함께 voting을 수행하였을 때, 더 높은 성능�
 ![HB-KwonPHYS](https://github.com/HB-KwonPHYS/textile_image_classification/blob/main/plot/all%20.png)
 
 
+soft voting을 수행한 경우, 각 모델들이 최고 성능을 달성할 수 있었음. 
+split의 수는 12개 정도가 최적이라고 생각됨.
 
