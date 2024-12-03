@@ -144,7 +144,7 @@ Both crystal structures and textiles are characterized by the repetition of a fu
 
 Material Science and Crystallography: The methodologies developed in this study can be applied to microscopic images of crystalline materials. By focusing on the repetition of unit cells, we can improve the classification and analysis of crystal structures, aiding in material identification and quality control.
 
-Automated Defect Detection: Understanding the regularity of unit cell patterns allows for the detection of anomalies or defects in both textiles and crystalline materials. This can be crucial for quality assurance in manufacturing processes where structural integrity is vital.
+Automated Defect Detection: Understanding the regularity of unit cell patterns allows for the detection of anomalies or defects in both textiles and crystalline materials. This can be crucial for quality assurance in manufacturing processes where structural integrity is vital. In particular, the crystal structure or repeating structure can be used for defect detection in semiconductor chips, semiconductor wafers, and super alloys.
 
 
 # References and Documentation
