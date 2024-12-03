@@ -11,7 +11,7 @@
  정보 손실을 최소화 하기 위해 직물 이미지가 가진 특성을 사용합니다. 일반적으로 사전학습된 모델을 사용하기 위해 244*244 이미지로 리사이즈 하는 것은 정보의 손실을 야기합니다. 직물 이미지는 패턴의 반복이며 같은 unit cell 이상의 블럭으로 나눌 수 있습니다. 따라서 이러한 나눠진 블럭을 다시 244*244로 리사이즈 하여 사용하면 데이터 손실을 줄이며 강건한 모델을 만들 수 있습니다. 이러한 나누는 과정을 비교하여 컴퓨팅 자원과 성능을 고려해 최적의 방법을 탐구 하였습니다. 그리고 이러한 경우 같은 이미지에서 나눠진 블럭들은 같은 클래스를 가지며, 이미지의 추론 시 voting을 할 수 있습니다. 최신 모델과의 비교를 통해 이 방법이 가지는 이점을 비교하였습니다.
 
 # 데이터 개요
-한국섬유개발 연구원(KOREA TEXTILE DEVELOPMENT INSTITUTE)에서 촬영한 직물 구조 현미경 촬영 이미지 601건 활용
+한국섬유개발 연구원(KOREA TEXTILE DEVELOPMENT INSTITUTE)에서 촬영한 직물 구조 현미경 촬영 2160*2880 해상도 이미지 601건 
 
 평직 161, 능직(우) 164, 능직(좌) 173, 기타 분류 103건
 
@@ -26,7 +26,7 @@
 
 0. new model : cnn_mod and cnn_Deep
 
-   바닐라 CNN을 개량하여 설명력이 강한 모델을 만듦.
+   바닐라 CNN을 개량하여 가벼우면서도 조금 더 깊고 설명력이 강한 모델을 제작.
 2. gray scale
 
     컬러채널 평균내어 연산량 줄임
@@ -43,6 +43,10 @@
 ## 실험 환경 및 과정
 ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4 
 
+# new model 구축
+![CNN_deep](https://github.com/user-attachments/assets/65519437-1007-4151-bae0-fb7a75dff75b)
+![CNN_mod_graph](https://github.com/user-attachments/assets/03e709f6-0059-44f2-aa3a-82d000a2ba39)
+
 
 # task flow and Installation and Usage
 train : validation : test = 7:1:2 , early stopping and then upload at Wandb
@@ -54,7 +58,7 @@ Usage : preprocessing 폴더에 있는 코드를 통해 split or gary scale 등 
 ![image](https://github.com/user-attachments/assets/c8f348f5-7430-4cf6-a5ae-b43d9b34fe7b)
 
 
-# 결과
+# 실험 결과
 
 ![HB-KwonPHYS](https://github.com/HB-KwonPHYS/textile_image_classification/blob/main/plot/all%20.png)
 
