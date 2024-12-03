@@ -18,6 +18,7 @@
 사전학습 모델 활용과 원활한 학습을 위한 224x224 resize.
 ![image](https://github.com/user-attachments/assets/bb90e2e2-72de-49b0-93e1-29f23c08c01b)
 [평직 , 능직(우) , 능직(좌) , 기타] 
+
 능직(우)와 능직(좌)는 같은 class로 통합
  
 # 문제 제기 및 방법 제안
