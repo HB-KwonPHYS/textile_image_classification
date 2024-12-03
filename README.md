@@ -97,11 +97,11 @@ cnn_deep을 gray scale에 맞게 입력층을 수정 하였으나 컴퓨팅 리�
 
 직물 이미지가 가진 특성인 unit cell의 반복을 통해 데이터를 증강하여 강건하고 높은 성능의 모델을 얻을 수 있었으며, 이 과정에서 split의 증가는 성능을 높여주는 주요 요소임을 알 수 있었다. 이미지의 엔트로피 관점에서는 데이터 손실을 줄인 학습방법이라 할 수 있다. 추가적으로 voting을 통해 더 높은 성능을 얻었고 soft voting이 최고의 성능을 달성하는 것을 확인하였다. 사전 학습된 Mobilenetv2의 경우 49% point의 성능 향상을 보였으며 이 실험을 위해 만든 사전 학습되지 않은 가벼운 모델들도 높은 성능 향상을 보였다. 
 
-vision Transformer계열인 DeiT와  xception의 경우에는 split and voting을 수행한 경우 최고의 성능을 보였지만 아무것도 적용하지 않아도 높은 성능을 보였다. 앞의 모델들과 비교하면 훨씬 무거우며 사전학습되었다는 차이점이 존재하며, 이러한 방법을 사용 하였을때 CNN_deep과 같은 가벼운 모델로도 같은 성능을 달성할 수 있었다. 
+vision Transformer계열인 DeiT와  xception의 경우에는 split and voting을 수행한 경우 최고의 성능을 보였지만 아무것도 적용하지 않아도 높은 성능을 보였다. 앞의 모델들과 비교하면 훨씬 무거우며 사전학습되었다는 차이점이 존재하며, 이러한 방법을 사용 하였을때 CNN_deep과 같은 경량화된 모델로도 같은 성능을 달성할 수 있었다.
 
 
 
-# 레퍼런스
+# References and Documentation
 Z. Wang, S. Chang, Y. Yang, D. Liu and T. S. Huang, "Studying Very Low Resolution Recognition Using Deep Networks," 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 2016, pp. 4792-4800, doi: 10.1109/CVPR.2016.518.
 
 Saeed Anwar, Salman Khan, and Nick Barnes. 2020. A Deep Journey into Super-resolution: A Survey. ACM Comput. Surv. 53, 3, Article 60 (May 2021), 34 pages. https://doi.org/10.1145/3390462
