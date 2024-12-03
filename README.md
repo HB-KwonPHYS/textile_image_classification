@@ -70,7 +70,9 @@ Where:
 \]
     - \( I(i, j) \): Original image pixel value
     - \( K(i, j) \): Compressed image pixel value
+# 결과
 
+![HB-KwonPHYS](https://github.com/HB-KwonPHYS/textile_image_classification/blob/main/plot/all%20.png)
 
 
 
