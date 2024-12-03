@@ -33,7 +33,7 @@
 4. voting
    자른 이미지는 모두 같은 class이므로 voting 수행. 여기서 확률값을 더하는 soft voting과 각 class의 진리값을 더하는 hard voting을 비교해 봄
 5. benchmarking
-   CNN기반이 아닌 트렌스포머기반 이미지 모델 등 최신 모델도 함께 비교하여 이러한 방법이 가지는 효과 측정.
+   CNN기반이 아닌 트렌스포머 기반 이미지 모델 등 최신 모델도 함께 비교하여 이러한 방법이 가지는 효과 측정.
    
 ## 실험 환경 및 과정
 ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4 
@@ -41,6 +41,9 @@ ubuntu 22.04 LTS ,python 3.8 , NVIDIA RTX™ A6000 (Ampere) * 4
 # task flow
 train : validation : test = 7:1:2
 ![image](https://github.com/user-attachments/assets/272999b8-9361-44a2-9f32-6e80b1ef51e8)
+
+## image split 
+![image](https://github.com/user-attachments/assets/c8f348f5-7430-4cf6-a5ae-b43d9b34fe7b)
 
 
 # 결과
