@@ -89,10 +89,12 @@ soft voting을 수행한 경우, 각 모델들이 최고 성능을 달성할 수
 
 cnn_deep을 gray scale에 맞게 입력층을 수정 하였으나 컴퓨팅 리소스 측면에서 컬러채널이 있는것과 차이가 없어 폐기함.
 
-# 결론
-
+# computing power
 ![image](https://github.com/user-attachments/assets/2841784f-b142-4616-a45c-3a3f8f0a0e2a)
 ![image](https://github.com/user-attachments/assets/c8463647-5460-4aca-928e-c48a56b972a1)
+
+# 결론
+
 
 
 
