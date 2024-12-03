@@ -10,6 +10,16 @@
 
 본 연구도 이와 비슷하게 손실된 정보를 최소화 하기 위해 직물 이미지가 가진 특성을 사용합니다. 직물 이미지는 패턴의 반복이며 같은 unit cell 이상의 블럭으로 나눌 수 있습니다. 이러한 나누는 과정을 비교하여 컴퓨팅 자원과 성능을 고려해 최적의 방법을 탐구 하였습니다. 그리고 이러한 경우 같은 이미지에서 나눠진 블럭들은 같은 클래스를 가지며, 이미지의 추론 시 voting을 할 수 있습니다. 최신 모델과의 비교를 통해 이 방법이 가지는 이점을 비교하였습니다.
 
+# 데이터 개요
+직접 수집한 직물 구조 현미경 촬영 이미지 601건 활용
+
+평직 161, 능직(우) 164, 능직(좌) 173, 기타 분류 103건
+
+고해상도 이미지의 원활한 학습을 위한 resize 실시, 224x224 해상도 활용
+![image](https://github.com/user-attachments/assets/f2912a99-91d5-4df8-a6d2-1a1ac7098117)
+
+
+
 # Information Entropy, Image Entropy, Image Compression, Information Loss
 
 ## 1. Information Entropy
